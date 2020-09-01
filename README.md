@@ -6,6 +6,12 @@
 
 ![alt text](https://image.prntscr.com/image/--KwYL4YQ2W2VwGAnplDYg.png)
 
+## Tech Stack
+### Backend
+- NodeJS, Express, Typescript, MySql, Mocha/Chai (testing library), NodeCache, Typeorm 
+### Frontend
+- ReactJS, Styled Components, React-Redux, Thunk, React-Router, Typescript
+
 
 ## Requirements
 
