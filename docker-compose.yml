@@ -1,0 +1,28 @@
+version: "3"
+services:
+  todo-server:
+    build: "./server"
+    depends_on:
+      - todo-server-db
+    environment:
+      MYSQL_HOST: "local-mysql-db"
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_USER: "todouser"
+      MYSQL_PASSWORD: "todopass"
+      MYSQL_DATABASE: "tododb"
+      MYSQL_PORT: 3306
+    ports:
+      - 3001:3001
+    volumes:
+      - ./server:/opt/app
+
+  todo-server-db:
+    image: mysql:5.7.24
+    container_name: local-mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_USER: "todouser"
+      MYSQL_PASSWORD: "todopass"
+      MYSQL_DATABASE: "tododb"
+    ports:
+      - 0.0.0.0:7200:3306

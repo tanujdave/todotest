@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "dom"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@global/*": ["api/components/global/*"],
+      "@config/*": ["config/*"],
+      "@services/*": ["services/*"]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"watch": ["src"],
+	"ext": "ts",
+	"ignore": ["src/**/*.spec.ts", "node_modules"],
+	"exec": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --no-notify ./src/index.ts"
+}
