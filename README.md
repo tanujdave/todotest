@@ -1,12 +1,9 @@
 # Todo app
 
-Todo listing
 ![alt text](https://image.prntscr.com/image/SkHijpq9QCSL33c1dyU57w.png)
 
-Add new Todo
 ![alt text](https://image.prntscr.com/image/xX3ySqTDQI2Y3qBuBFu1-A.png)
 
-Update existing Todo
 ![alt text](https://image.prntscr.com/image/--KwYL4YQ2W2VwGAnplDYg.png)
 
 
